@@ -7,20 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA5F224D28243BC4004F5608 /* MediaQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5F224C28243BC4004F5608 /* MediaQuery.swift */; };
 		FA7DBEA62823FEDE004AFA18 /* MusicFetcherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7DBEA52823FEDE004AFA18 /* MusicFetcherApp.swift */; };
 		FA7DBEA82823FEDE004AFA18 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7DBEA72823FEDE004AFA18 /* ContentView.swift */; };
 		FA7DBEAA2823FEE2004AFA18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA7DBEA92823FEE2004AFA18 /* Assets.xcassets */; };
 		FA7DBEAD2823FEE2004AFA18 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA7DBEAC2823FEE2004AFA18 /* Preview Assets.xcassets */; };
-		FA7DBEB42823FFA6004AFA18 /* MusicFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7DBEB32823FFA6004AFA18 /* MusicFetcher.swift */; };
+		FA7DBEB42823FFA6004AFA18 /* MediaResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7DBEB32823FFA6004AFA18 /* MediaResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA5F224C28243BC4004F5608 /* MediaQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaQuery.swift; sourceTree = "<group>"; };
 		FA7DBEA22823FEDE004AFA18 /* MusicFetcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicFetcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA7DBEA52823FEDE004AFA18 /* MusicFetcherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicFetcherApp.swift; sourceTree = "<group>"; };
 		FA7DBEA72823FEDE004AFA18 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FA7DBEA92823FEE2004AFA18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA7DBEAC2823FEE2004AFA18 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FA7DBEB32823FFA6004AFA18 /* MusicFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicFetcher.swift; sourceTree = "<group>"; };
+		FA7DBEB32823FFA6004AFA18 /* MediaResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				FA7DBEA52823FEDE004AFA18 /* MusicFetcherApp.swift */,
+				FA5F224C28243BC4004F5608 /* MediaQuery.swift */,
 				FA7DBEA72823FEDE004AFA18 /* ContentView.swift */,
-				FA7DBEB32823FFA6004AFA18 /* MusicFetcher.swift */,
+				FA7DBEB32823FFA6004AFA18 /* MediaResponse.swift */,
 				FA7DBEA92823FEE2004AFA18 /* Assets.xcassets */,
 				FA7DBEAB2823FEE2004AFA18 /* Preview Content */,
 			);
@@ -141,7 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA7DBEA82823FEDE004AFA18 /* ContentView.swift in Sources */,
-				FA7DBEB42823FFA6004AFA18 /* MusicFetcher.swift in Sources */,
+				FA5F224D28243BC4004F5608 /* MediaQuery.swift in Sources */,
+				FA7DBEB42823FFA6004AFA18 /* MediaResponse.swift in Sources */,
 				FA7DBEA62823FEDE004AFA18 /* MusicFetcherApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -6,49 +6,32 @@
 //
 
 import SwiftUI
+import Combine
 
 struct ContentView: View {
-    
-    //@State private var musicItems: [MusicItem] = []
-    
-    var body: some View {
-        VStack {
-            Button(action: fetchMusic) {
-                Text("Fetch Music")
-            }
-            List(musicItems) { item in
-                Text(item.artistName)
-            }
+  
+  @ObservedObject var mediaQuery = MediaQuery()
+  
+  var body: some View {
+    NavigationView {
+      VStack {
+        TextField("Search", text: $mediaQuery.itunesQuery)
+          .textFieldStyle(RoundedBorderTextFieldStyle())
+          .padding()
+        List(mediaQuery.searchResults) { item in
+          VStack(alignment: .leading) {
+            Text(item.trackName).font(.headline)
+            Text(item.artistName).font(.subheadline)
+          }
         }
+      }
+      .navigationBarTitle("Search Music")
     }
-    
-//    func fetchMusic() {
-//        guard let url = URL(string:"https://itunes.apple.com/search?media=music&entity=song&term=cohen") else {
-//
-//            return
-//        }
-//
-//        URLSession.shared.dataTask(with: url) { data, response, taskError in
-//            guard let httpResponse = response as? HTTPURLResponse,
-//                  (200..<300).contains(httpResponse.statusCode),
-//                  let data = data else {
-//                    fatalError()
-//            }
-//            let decoder = JSONDecoder()
-//            guard let response = try? decoder.decode(MediaResponse.self, from: data) else {
-//                return
-//            }
-//            DispatchQueue.main.async {
-//                self.musicItems = response.results
-//            }
-//        }.resume()
-//    }
+  }
 }
 
-
-
 struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
+  static var previews: some View {
+    ContentView()
+  }
 }
