@@ -10,24 +10,19 @@ import Combine
 
 struct ContentView: View {
   
-  @ObservedObject var mediaQuery = MediaQuery()
+  @ObservedObject var artistInfo = ArtistQuery()
   
-  var body: some View {
-    NavigationView {
-      VStack {
-        TextField("Search", text: $mediaQuery.itunesQuery)
-          .textFieldStyle(RoundedBorderTextFieldStyle())
-          .padding()
-        List(mediaQuery.searchResults) { item in
-          VStack(alignment: .leading) {
-            Text(item.trackName).font(.headline)
-            Text(item.artistName).font(.subheadline)
-          }
+    var body: some View {
+        VStack {
+          Image(uiImage: artistInfo.photo)
+            .resizable()
+            .aspectRatio(contentMode: .fit)
+          Text("Leonard Cohen")
+          Text(self.artistInfo.bio)
+            .padding()
+          Spacer()
         }
       }
-      .navigationBarTitle("Search Music")
-    }
-  }
 }
 
 struct ContentView_Previews: PreviewProvider {

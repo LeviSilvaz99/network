@@ -7,28 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FA5F224D28243BC4004F5608 /* MediaQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5F224C28243BC4004F5608 /* MediaQuery.swift */; };
-		FA5F225028246580004F5608 /* ArtistQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5F224F28246580004F5608 /* ArtistQuery.swift */; };
-		FA7DBEA62823FEDE004AFA18 /* MusicFetcherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7DBEA52823FEDE004AFA18 /* MusicFetcherApp.swift */; };
-		FA7DBEA82823FEDE004AFA18 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7DBEA72823FEDE004AFA18 /* ContentView.swift */; };
-		FA7DBEAA2823FEE2004AFA18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA7DBEA92823FEE2004AFA18 /* Assets.xcassets */; };
-		FA7DBEAD2823FEE2004AFA18 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA7DBEAC2823FEE2004AFA18 /* Preview Assets.xcassets */; };
-		FA7DBEB42823FFA6004AFA18 /* MediaResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7DBEB32823FFA6004AFA18 /* MediaResponse.swift */; };
+		FA5F225E28254083004F5608 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5F225D28254083004F5608 /* AppDelegate.swift */; };
+		FA5F226028254083004F5608 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5F225F28254083004F5608 /* SceneDelegate.swift */; };
+		FA5F226228254083004F5608 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5F226128254083004F5608 /* ViewController.swift */; };
+		FA5F226528254083004F5608 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA5F226328254083004F5608 /* Main.storyboard */; };
+		FA5F226728254086004F5608 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA5F226628254086004F5608 /* Assets.xcassets */; };
+		FA5F226A28254086004F5608 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA5F226828254086004F5608 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FA5F224C28243BC4004F5608 /* MediaQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaQuery.swift; sourceTree = "<group>"; };
-		FA5F224F28246580004F5608 /* ArtistQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistQuery.swift; sourceTree = "<group>"; };
-		FA7DBEA22823FEDE004AFA18 /* MusicFetcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicFetcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA7DBEA52823FEDE004AFA18 /* MusicFetcherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicFetcherApp.swift; sourceTree = "<group>"; };
-		FA7DBEA72823FEDE004AFA18 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		FA7DBEA92823FEE2004AFA18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FA7DBEAC2823FEE2004AFA18 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FA7DBEB32823FFA6004AFA18 /* MediaResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaResponse.swift; sourceTree = "<group>"; };
+		FA5F225A28254083004F5608 /* RequestApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RequestApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5F225D28254083004F5608 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA5F225F28254083004F5608 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FA5F226128254083004F5608 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA5F226428254083004F5608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA5F226628254086004F5608 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA5F226928254086004F5608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA5F226B28254086004F5608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FA7DBE9F2823FEDE004AFA18 /* Frameworks */ = {
+		FA5F225728254083004F5608 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,88 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FA5F224E28246568004F5608 /* model */ = {
+		FA5F225128254083004F5608 = {
 			isa = PBXGroup;
 			children = (
-				FA5F224C28243BC4004F5608 /* MediaQuery.swift */,
-				FA5F224F28246580004F5608 /* ArtistQuery.swift */,
-			);
-			path = model;
-			sourceTree = "<group>";
-		};
-		FA7DBE992823FEDE004AFA18 = {
-			isa = PBXGroup;
-			children = (
-				FA7DBEA42823FEDE004AFA18 /* MusicFetcher */,
-				FA7DBEA32823FEDE004AFA18 /* Products */,
+				FA5F225C28254083004F5608 /* RequestApi */,
+				FA5F225B28254083004F5608 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FA7DBEA32823FEDE004AFA18 /* Products */ = {
+		FA5F225B28254083004F5608 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FA7DBEA22823FEDE004AFA18 /* MusicFetcher.app */,
+				FA5F225A28254083004F5608 /* RequestApi.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FA7DBEA42823FEDE004AFA18 /* MusicFetcher */ = {
+		FA5F225C28254083004F5608 /* RequestApi */ = {
 			isa = PBXGroup;
 			children = (
-				FA5F224E28246568004F5608 /* model */,
-				FA7DBEA52823FEDE004AFA18 /* MusicFetcherApp.swift */,
-				FA7DBEA72823FEDE004AFA18 /* ContentView.swift */,
-				FA7DBEB32823FFA6004AFA18 /* MediaResponse.swift */,
-				FA7DBEA92823FEE2004AFA18 /* Assets.xcassets */,
-				FA7DBEAB2823FEE2004AFA18 /* Preview Content */,
+				FA5F225D28254083004F5608 /* AppDelegate.swift */,
+				FA5F225F28254083004F5608 /* SceneDelegate.swift */,
+				FA5F226128254083004F5608 /* ViewController.swift */,
+				FA5F226328254083004F5608 /* Main.storyboard */,
+				FA5F226628254086004F5608 /* Assets.xcassets */,
+				FA5F226828254086004F5608 /* LaunchScreen.storyboard */,
+				FA5F226B28254086004F5608 /* Info.plist */,
 			);
-			path = MusicFetcher;
-			sourceTree = "<group>";
-		};
-		FA7DBEAB2823FEE2004AFA18 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				FA7DBEAC2823FEE2004AFA18 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
+			path = RequestApi;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FA7DBEA12823FEDE004AFA18 /* MusicFetcher */ = {
+		FA5F225928254083004F5608 /* RequestApi */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA7DBEB02823FEE2004AFA18 /* Build configuration list for PBXNativeTarget "MusicFetcher" */;
+			buildConfigurationList = FA5F226E28254086004F5608 /* Build configuration list for PBXNativeTarget "RequestApi" */;
 			buildPhases = (
-				FA7DBE9E2823FEDE004AFA18 /* Sources */,
-				FA7DBE9F2823FEDE004AFA18 /* Frameworks */,
-				FA7DBEA02823FEDE004AFA18 /* Resources */,
+				FA5F225628254083004F5608 /* Sources */,
+				FA5F225728254083004F5608 /* Frameworks */,
+				FA5F225828254083004F5608 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MusicFetcher;
-			productName = MusicFetcher;
-			productReference = FA7DBEA22823FEDE004AFA18 /* MusicFetcher.app */;
+			name = RequestApi;
+			productName = RequestApi;
+			productReference = FA5F225A28254083004F5608 /* RequestApi.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FA7DBE9A2823FEDE004AFA18 /* Project object */ = {
+		FA5F225228254083004F5608 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
-					FA7DBEA12823FEDE004AFA18 = {
+					FA5F225928254083004F5608 = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
 				};
 			};
-			buildConfigurationList = FA7DBE9D2823FEDE004AFA18 /* Build configuration list for PBXProject "MusicFetcher" */;
+			buildConfigurationList = FA5F225528254083004F5608 /* Build configuration list for PBXProject "RequestApi" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -127,45 +110,63 @@
 				en,
 				Base,
 			);
-			mainGroup = FA7DBE992823FEDE004AFA18;
-			productRefGroup = FA7DBEA32823FEDE004AFA18 /* Products */;
+			mainGroup = FA5F225128254083004F5608;
+			productRefGroup = FA5F225B28254083004F5608 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FA7DBEA12823FEDE004AFA18 /* MusicFetcher */,
+				FA5F225928254083004F5608 /* RequestApi */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FA7DBEA02823FEDE004AFA18 /* Resources */ = {
+		FA5F225828254083004F5608 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA7DBEAD2823FEE2004AFA18 /* Preview Assets.xcassets in Resources */,
-				FA7DBEAA2823FEE2004AFA18 /* Assets.xcassets in Resources */,
+				FA5F226A28254086004F5608 /* LaunchScreen.storyboard in Resources */,
+				FA5F226728254086004F5608 /* Assets.xcassets in Resources */,
+				FA5F226528254083004F5608 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FA7DBE9E2823FEDE004AFA18 /* Sources */ = {
+		FA5F225628254083004F5608 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA7DBEA82823FEDE004AFA18 /* ContentView.swift in Sources */,
-				FA5F224D28243BC4004F5608 /* MediaQuery.swift in Sources */,
-				FA5F225028246580004F5608 /* ArtistQuery.swift in Sources */,
-				FA7DBEB42823FFA6004AFA18 /* MediaResponse.swift in Sources */,
-				FA7DBEA62823FEDE004AFA18 /* MusicFetcherApp.swift in Sources */,
+				FA5F226228254083004F5608 /* ViewController.swift in Sources */,
+				FA5F225E28254083004F5608 /* AppDelegate.swift in Sources */,
+				FA5F226028254083004F5608 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		FA5F226328254083004F5608 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA5F226428254083004F5608 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA5F226828254086004F5608 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA5F226928254086004F5608 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		FA7DBEAE2823FEE2004AFA18 /* Debug */ = {
+		FA5F226C28254086004F5608 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -225,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		FA7DBEAF2823FEE2004AFA18 /* Release */ = {
+		FA5F226D28254086004F5608 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -279,19 +280,18 @@
 			};
 			name = Release;
 		};
-		FA7DBEB12823FEE2004AFA18 /* Debug */ = {
+		FA5F226F28254086004F5608 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MusicFetcher/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = RequestApi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -299,7 +299,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.levisilva.MusicFetcher;
+				PRODUCT_BUNDLE_IDENTIFIER = com.levisilva.RequestApi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -307,19 +307,18 @@
 			};
 			name = Debug;
 		};
-		FA7DBEB22823FEE2004AFA18 /* Release */ = {
+		FA5F227028254086004F5608 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MusicFetcher/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = RequestApi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -327,7 +326,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.levisilva.MusicFetcher;
+				PRODUCT_BUNDLE_IDENTIFIER = com.levisilva.RequestApi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -338,25 +337,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FA7DBE9D2823FEDE004AFA18 /* Build configuration list for PBXProject "MusicFetcher" */ = {
+		FA5F225528254083004F5608 /* Build configuration list for PBXProject "RequestApi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FA7DBEAE2823FEE2004AFA18 /* Debug */,
-				FA7DBEAF2823FEE2004AFA18 /* Release */,
+				FA5F226C28254086004F5608 /* Debug */,
+				FA5F226D28254086004F5608 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FA7DBEB02823FEE2004AFA18 /* Build configuration list for PBXNativeTarget "MusicFetcher" */ = {
+		FA5F226E28254086004F5608 /* Build configuration list for PBXNativeTarget "RequestApi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FA7DBEB12823FEE2004AFA18 /* Debug */,
-				FA7DBEB22823FEE2004AFA18 /* Release */,
+				FA5F226F28254086004F5608 /* Debug */,
+				FA5F227028254086004F5608 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FA7DBE9A2823FEDE004AFA18 /* Project object */;
+	rootObject = FA5F225228254083004F5608 /* Project object */;
 }
